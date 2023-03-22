@@ -1,0 +1,176 @@
+/* GENERAL AND UTILS STYLES */
+* {
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+  transition: all 0.4s;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+}
+
+button:active {
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* GENERAL AND UTILS END */
+
+/* HEADER */
+header {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  background: var(--bg-color);
+  margin: 0;
+}
+
+.logo {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: normal;
+  color: var(--brand-color);
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--light-color);
+}
+
+.nav-item {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  font-weight: normal;
+}
+
+.intro {
+  margin: 0;
+  background: var(--bg-color) url("../images/bg.jpg") no-repeat center;
+  background-size: cover;
+  padding: 8rem 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content {
+  grid-column: 1/2;
+}
+.content .blog-head1 {
+  color: var(--light-color);
+}
+
+.intro-desc {
+  font-size: 2rem;
+  line-height: 3rem;
+  color: var(--secondary-color);
+  margin: 3rem 0;
+}
+
+.content.main-btn {
+  color: var(--bg-color);
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .intro {
+    padding: 7rem 5rem;
+    grid-template-columns: 1fr;
+  }
+
+  .intro-desc {
+    font-size: 1.8rem;
+  }
+}
+
+/* /////////////////////// */
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .intro {
+    padding: 7rem 2rem;
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+
+  .logo {
+    font-size: 1.7rem;
+  }
+
+  .nav-item {
+    font-size: 1.1rem;
+  }
+
+  .intro-desc {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: var(--secondary-color);
+    margin: 2.5rem 0;
+  }
+}
+/* //////////////////////// */
+
+/* /////////////////////// */
+@media screen and (max-width: 600px) and (min-width: 481px) {
+  .intro-desc {
+    font-size: 1.4rem;
+  }
+}
+
+/* ////////////////// */
+
+@media screen and (max-width: 480px) {
+  nav {
+    padding: 0.5rem 1rem;
+  }
+  .nav-item {
+    font-size: 1.1rem;
+    margin-left: 1.3rem;
+    font-weight: normal;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .nav-item {
+    font-size: 1.1rem;
+  }
+
+  .intro {
+    padding: 4rem 1rem;
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+
+  .intro-desc {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    color: var(--secondary-color);
+    margin: 2.4rem 0;
+  }
+}
+
+/* /////////////////// */
+/* NAV END */
+/* HEADER END */

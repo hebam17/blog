@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&display=swap");
 
 .blog-head1 {
-  font-size: 64px;
+  font-size: 4.5rem;
   font-weight: bold;
   letter-spacing: 1px;
+  margin: 0;
 }
+
+/* ////////// */
 
 .blog-head2 {
   font-size: 55px;
@@ -23,3 +26,47 @@
   font-weight: normal;
   line-height: 150%;
 }
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+  .blog-head1 {
+    font-size: 4rem;
+  }
+}
+
+/* /////////////////// */
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .blog-head1 {
+    font-size: 3rem;
+  }
+}
+
+/* ///////////////// */
+
+/* /////////////////// */
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  .blog-head1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* /////////////////// */
+
+@media screen and (max-width: 480px) {
+  .blog-head1 {
+    font-size: 2rem;
+  }
+}
+
+/* ///////////////// */
+/* /////////////////// */
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .blog-head1 {
+    font-size: 2.2rem;
+  }
+}
+
+/* ///////////////// */
