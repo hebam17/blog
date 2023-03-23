@@ -52,15 +52,17 @@
 /* //////// */
 
 /* INPUT */
-.input {
+input {
   border-radius: 10px;
   background: var(--light-color);
-  padding: 0.5rem;
+  padding: 2rem 1rem;
+  width: 80%;
+  margin-bottom: 2rem;
 }
 
-.input::placeholder {
+input::placeholder {
   color: var(--secondary-color);
-  font-size: 32px;
+  font-size: 2.2rem;
 }
 
 /* /////////// */
@@ -69,8 +71,9 @@
 .sub-btn {
   padding: 1.5rem;
   background: var(--brand-color);
-  font-size: 32px;
+  font-size: 2.2rem;
   color: var(--light-color);
+  border-radius: 10px;
 }
 
 /* ///////// */
@@ -86,6 +89,39 @@
     padding: 1.2rem 2.2rem;
   }
 }
+/* ///////////////////////// */
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+  input {
+    padding: 1.8rem 0.8rem;
+  }
+
+  input::placeholder {
+    font-size: 2.1rem;
+  }
+
+  .sub-btn {
+    padding: 1.4rem;
+    font-size: 2.1rem;
+  }
+}
+/* /////////////////////////// */
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  input {
+    padding: 1.5rem 0.8rem;
+  }
+
+  input::placeholder {
+    font-size: 1.8rem;
+  }
+
+  .sub-btn {
+    padding: 1.2rem;
+    font-size: 1.8rem;
+  }
+}
 
 /* ////////////////////////// */
 @media screen and (max-width: 768px) and (min-width: 481px) {
@@ -96,6 +132,19 @@
     font-size: 1.6rem;
     font-style: italic;
     padding: 1.1rem 2.1rem;
+  }
+
+  input {
+    padding: 1.2rem 0.8rem;
+  }
+
+  input::placeholder {
+    font-size: 1.5rem;
+  }
+
+  .sub-btn {
+    padding: 1rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -108,5 +157,18 @@
     font-size: 1.4rem;
     font-style: italic;
     padding: 0.8rem 1.8rem;
+  }
+
+  input {
+    padding: 1rem 0.8rem;
+  }
+
+  input::placeholder {
+    font-size: 1.2rem;
+  }
+
+  .sub-btn {
+    padding: 1rem;
+    font-size: 1.2rem;
   }
 }
