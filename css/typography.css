@@ -10,19 +10,19 @@
 /* ////////// */
 
 .blog-head2 {
-  font-size: 55px;
+  font-size: 4rem;
   font-weight: bold;
   letter-spacing: 1px;
 }
 
 .blog-head3 {
-  font-size: 38px;
+  font-size: 2.7rem;
   font-weight: normal;
   font-style: italic;
 }
 
 .blog-text {
-  font-size: 32px;
+  font-size: 1.8rem;
   font-weight: normal;
   line-height: 150%;
 }
@@ -32,13 +32,37 @@
   .blog-head1 {
     font-size: 4rem;
   }
+
+  .blog-head2 {
+    font-size: 3.5rem;
+  }
+
+  .blog-head3 {
+    font-size: 2.5rem;
+  }
+
+  .blog-text {
+    font-size: 1.6rem;
+  }
 }
 
 /* /////////////////// */
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
   .blog-head1 {
+    font-size: 3.4rem;
+  }
+
+  .blog-head2 {
     font-size: 3rem;
+  }
+
+  .blog-head3 {
+    font-size: 2.2rem;
+  }
+
+  .blog-text {
+    font-size: 1.3rem;
   }
 }
 
@@ -48,24 +72,63 @@
 
 @media screen and (max-width: 768px) and (min-width: 600px) {
   .blog-head1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+  }
+
+  .blog-head2 {
+    font-size: 2.6rem;
+  }
+
+  .blog-head3 {
+    font-size: 2rem;
+  }
+
+  .blog-text {
+    font-size: 1.2rem;
   }
 }
 
 /* /////////////////// */
 
-@media screen and (max-width: 480px) {
+/* /////////////////// */
+
+@media screen and (max-width: 600px) and (min-width: 481px) {
   .blog-head1 {
-    font-size: 2rem;
+    font-size: 2.7rem;
+  }
+
+  .blog-head2 {
+    font-size: 2.2rem;
+  }
+
+  .blog-head3 {
+    font-size: 1.8rem;
+  }
+
+  .blog-text {
+    font-size: 1.2rem;
   }
 }
 
 /* ///////////////// */
-/* /////////////////// */
 
-@media screen and (max-width: 768px) and (min-width: 481px) {
+/* ////////////////// */
+
+@media screen and (max-width: 480px) {
   .blog-head1 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
+  }
+
+  .blog-head2 {
+    font-size: 2rem;
+  }
+
+  .blog-head3 {
+    font-size: 1.6rem;
+  }
+
+  .blog-text {
+    font-size: 1.1rem;
   }
 }
 
