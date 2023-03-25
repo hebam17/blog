@@ -2,7 +2,6 @@
 
 .card {
   background: var(--third-color);
-  /* max-width: 100px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -30,6 +29,15 @@
 
 .card-body p {
   color: var(--light-color);
+}
+
+.learn-more {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.learn-more:hover {
+  color: var(--brand-color);
 }
 
 /* CARD END */
@@ -72,23 +80,66 @@ input::placeholder {
   padding: 1.5rem;
   background: var(--brand-color);
   font-size: 2.2rem;
-  color: var(--light-color);
+  color: var(--third-color);
   border-radius: 10px;
 }
 
 /* ///////// */
 
-/* MEDIA QUERY */
-@media screen and (max-width: 1024px) and (min-width: 769px) {
-  .main-btn {
-    border-radius: 10px;
-    background: var(--light-color);
-    color: var(--bg-color);
-    font-size: 2rem;
-    font-style: italic;
-    padding: 1.2rem 2.2rem;
-  }
+/* WRITER INFO CARD */
+.writer-info-card {
+  padding: 3rem;
+  background: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.avatar {
+  border-radius: 50%;
+  margin: auto;
+  width: 10rem;
+  height: 10rem;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.writer-info {
+  margin-left: 2rem;
+}
+
+.name {
+  margin-bottom: 2rem;
+  color: var(--brand-color);
+}
+
+.company,
+.bio,
+.writer-follow p {
+  margin-bottom: 2rem;
+  color: var(--light-color);
+}
+
+.writer-social {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.writer-social .social-item {
+  margin-left: 0;
+  cursor: pointer;
+}
+
+/* WRITER INFO CARD  END*/
+
 /* ///////////////////////// */
 
 /* MEDIA QUERY */
@@ -104,6 +155,11 @@ input::placeholder {
   .sub-btn {
     padding: 1.4rem;
     font-size: 2.1rem;
+  }
+
+  .avatar {
+    width: 10rem;
+    height: 8rem;
   }
 }
 /* /////////////////////////// */
@@ -145,6 +201,20 @@ input::placeholder {
   .sub-btn {
     padding: 1rem;
     font-size: 1.5rem;
+  }
+
+  .main-btn {
+    border-radius: 10px;
+    background: var(--light-color);
+    color: var(--bg-color);
+    font-size: 2rem;
+    font-style: italic;
+    padding: 1.2rem 2.2rem;
+  }
+
+  .avatar {
+    width: 9rem;
+    height: 7rem;
   }
 }
 

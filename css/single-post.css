@@ -1,0 +1,128 @@
+/* MAIN */
+.single-post {
+  margin: 5rem 4rem;
+  text-align: left;
+}
+
+.single-post .blog-head1 {
+  color: var(--brand-color);
+  margin-bottom: 5rem;
+}
+
+.post-content-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 4rem;
+}
+
+/* POST CONTENT */
+.post-content {
+  grid-column: 1/3;
+}
+
+.post-img {
+  width: 100%;
+  margin: auto;
+}
+
+.post-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  color: var(--secondary-color);
+}
+
+.post .blog-text {
+  color: var(--light-color);
+}
+/* POST CONTENT END */
+
+/* SUGGESTIONS  */
+.suggest {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.suggest .card {
+  margin-bottom: 2rem;
+}
+
+.search-post input {
+  width: 100%;
+}
+
+/* ////////////MEDIA QUERY////////// */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .single-post {
+    margin: 3rem 3rem;
+  }
+
+  .single-post .blog-head1 {
+    margin-bottom: 4rem;
+  }
+
+  .post-content-container {
+    grid-gap: 2.5rem;
+  }
+}
+
+/* ////////////////////////// */
+@media screen and (max-width: 768px) {
+  .single-post {
+    margin: 2rem 1rem;
+  }
+
+  .post {
+    margin-bottom: 2rem;
+  }
+
+  .single-post .blog-head1 {
+    margin-bottom: 4rem;
+  }
+
+  .post-img img {
+    border-radius: 10px;
+  }
+  .post-content-container {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 0;
+  }
+
+  .post-content {
+    margin-bottom: 4rem;
+  }
+
+  .search-post {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .suggest {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+  }
+}
+
+/* ////////////////////////// */
+@media screen and (max-width: 480px) {
+  .single-post {
+    margin: 0;
+  }
+
+  .single-post .blog-head1 {
+    margin-bottom: 3rem;
+  }
+}
+/* SUGGESTIONS END  */
+
+/* MAIN END */

@@ -27,6 +27,19 @@
   line-height: 150%;
 }
 
+.blog-head3-sm {
+  font-size: 2rem;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 120%;
+}
+
+.blog-text-sm {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 150%;
+}
+
 /* MEDIA QUERY */
 @media screen and (max-width: 1200px) and (min-width: 1025px) {
   .blog-head1 {
@@ -64,6 +77,14 @@
   .blog-text {
     font-size: 1.3rem;
   }
+
+  .blog-head3-sm {
+    font-size: 1.8rem;
+  }
+
+  .blog-text-sm {
+    font-size: 0.9rem;
+  }
 }
 
 /* ///////////////// */
@@ -85,6 +106,14 @@
 
   .blog-text {
     font-size: 1.2rem;
+  }
+
+  .blog-head3-sm {
+    font-size: 1.5rem;
+  }
+
+  .blog-text-sm {
+    font-size: 0.7rem;
   }
 }
 
@@ -108,6 +137,14 @@
   .blog-text {
     font-size: 1.2rem;
   }
+
+  .blog-head3-sm {
+    font-size: 1.3rem;
+  }
+
+  .blog-text-sm {
+    font-size: 0.7rem;
+  }
 }
 
 /* ///////////////// */
@@ -129,6 +166,14 @@
 
   .blog-text {
     font-size: 1.1rem;
+  }
+
+  .blog-head3-sm {
+    font-size: 1.1rem;
+  }
+
+  .blog-text-sm {
+    font-size: 0.7rem;
   }
 }
 
