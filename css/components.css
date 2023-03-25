@@ -25,6 +25,7 @@
 
 .card-body h3 {
   color: var(--brand-color);
+  margin: 0 auto;
 }
 
 .card-body p {
