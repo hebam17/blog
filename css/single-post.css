@@ -38,6 +38,12 @@ figcaption {
 .post .blog-text {
   color: var(--light-color);
 }
+
+.post .quote {
+  font-style: italic;
+  color: var(--brand-color);
+  font-weight: bold;
+}
 /* POST CONTENT END */
 
 /* SUGGESTIONS  */

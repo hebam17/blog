@@ -90,6 +90,7 @@ nav {
   line-height: 3rem;
   color: var(--secondary-color);
   margin: 3rem 0;
+  font-style: italic;
 }
 
 .content.main-btn {
@@ -248,6 +249,7 @@ footer {
   font-size: 1.4rem;
   color: var(--light-color);
   margin-top: 0;
+  font-weight: bold;
 }
 
 .social {
